@@ -1,0 +1,26 @@
+div {
+    /* white-space: pre-line; */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #767676;
+    border: 1px solid #ccc;
+}
+.panel {
+    flex-grow: 1;
+    width: calc(100%/2);  
+    background-color: #000000;
+    
+}
+/* Main container */
+.bigBox {
+    margin: 40px;
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+}
+body
+    {
+    background-color: #ffffff;
+    color: #159b41;
+}
