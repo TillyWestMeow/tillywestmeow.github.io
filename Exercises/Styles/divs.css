@@ -1,26 +1,68 @@
 div {
     /* white-space: pre-line; */
+    /* border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #767676;
+    border: 1px solid #ccc; */
+}
+.panel{
     border: 1px solid #ccc;
     padding: 10px;
     margin: 10px;
     background-color: #767676;
     border: 1px solid #ccc;
-}
-.panel {
+
     flex-grow: 1;
-    width: calc(100%/2);  
+    width: calc(100%/3);  
     background-color: #000000;
     
 }
+.columnPanel{
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #767676;
+    border: 1px solid #ccc;
+    display: flex;
+    width: calc(100%/3);  
+}
+.rowPanel{
+    /* border: 1px solid #ccc; */
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #767676;
+    /* border: 1px solid #ccc; */
+    display: flex;
+    flex-direction: column;
+}
+.nested{
+    width: 50%;
+    margin: 5px;
+    padding: 10px;
+
+    background-color: #000000;
+}
+.nestedRow{
+    height: 50%;
+    background-color: #000000;
+}
 /* Main container */
 .bigBox {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #767676;
+    border: 1px solid #ccc;
     margin: 40px;
     display: flex;
     height: 50vh;
     justify-content: center;
 }
 body
-    {
+{
     background-color: #ffffff;
     color: #159b41;
 }
