@@ -3,6 +3,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Roboto", "Arial", sans-serif;
+
 }
 /* END GLOBAL STYLE */
 
@@ -23,20 +25,36 @@ nav {
 nav ul {
     list-style-type: none;
     display: flex;
-    margin: 0;
+    /* margin: 0; */
+    flex-grow: 1;
     /* padding: 10px */
     /* font-style: italic; */
 }
+nav ul li {
+    width: 100%;
+    height: 100%;
+  
+}
 nav ul li a{
+    width: 100%;
+    height: 100%;
+    line-height: 100px;
     margin-right: 20px;
     color: white;
     text-decoration: none;
     font-size: 40px;
-    align-items:center;
+    text-align: center;
+    /* vertical-align: middle; */
+    display: inline-block;
+
+}
+nav ul li a:hover {
+    background-color: #5b2b9a;
 }
 #logo {
     height: 100%;
-    /* padding: 10px; */
+    width: 100%;
+    padding: 10%;
 }
 
 #logo img {
