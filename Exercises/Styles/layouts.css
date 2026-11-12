@@ -87,3 +87,12 @@ main section h2 {
     padding: 20px 50px 0px;
     text-align: center;
 }
+.mainDiv{
+    display: flex;
+}
+.mainDiv main{
+    flex: 5;
+}
+.mainDiv aside{
+    flex: 1;
+}
