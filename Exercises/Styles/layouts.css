@@ -110,11 +110,13 @@ main section h2 {
 } 
 
 /* Header styles end */
+/* https://embed-googlemap.com/ FOR EMBEDDED MAPS! */
 /* Footer styles */
 footer{
     display: flex;
     background-color: #000000;
     /* height: 500px; */
+    padding: 0 10%
 }
 footer ul {
     list-style: none;
@@ -129,4 +131,10 @@ footer ul li a{
 footer ul li a:hover{
     color: #c6b690;
     text-decoration: none;
+}
+footer div{
+    flex: 1;
+}
+footer .mapDiv {
+    padding: 20px;
 }
