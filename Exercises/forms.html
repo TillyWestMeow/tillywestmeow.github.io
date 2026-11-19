@@ -9,37 +9,78 @@
 </head>
 <body>
     <form action="">
-        <div>
-            <label for="username">Username:</label>
-            <input type="text" name="username" id="username">
-        </div>
-        <div>
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
-        </div>
-        <div>
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password">
-        </div>
-        <div>
-            <label for="confirm">Confirm:</label>
-            <input type="password" name="confirm" id="confirm">
-        </div>
-        <div>
-            <input type="radio" name="" id="">
-            <label for="age">15-20</label>
-            <br>            
-            <input type="radio" name="" id="">
-            <label for="age">21-30</label>
-            <br>            
-            <input type="radio" name="" id="">
-            <label for="age">31-40</label>
-            <br>            
-            <input type="radio" name="" id="">
-            <label for="age">41+</label>
-            <br>            
-        </div>
-        
+        <fieldset>
+            <Legend>Personal Details</Legend>
+            <div>
+                <label for="username">Username:</label><br>
+                <input type="text" name="username" id="username">
+            </div>
+            
+            <div>
+                <label for="password">Password:</label><br>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <label for="confirm">Confirm:</label><br>
+                <input type="password" name="confirm" id="confirm">
+            </div>
+            <div>
+                <p>Age Group</p>
+                <input type="radio" name="age" id="age1">
+                <label for="age">15-20</label>
+                <br>            
+                <input type="radio" name="age" id="age2">
+                <label for="age">21-30</label>
+                <br>            
+                <input type="radio" name="age" id="age3">
+                <label for="age">31-40</label>
+                <br>            
+                <input type="radio" name="age" id="age4">
+                <label for="age">41+</label>
+                <br>            
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="">Gaming</label>
+                <br>            
+                <input type="checkbox" name="" id="">
+                <label for="">Singing</label>
+                <br>            
+                <input type="checkbox" name="" id="">
+                <label for="">Meth</label>
+                <br>            
+                <input type="checkbox" name="" id="">
+                <label for="">Crochet</label>
+                <br>            
+            </div>
+            
+            
+        </fieldset>
+        <fieldset>
+           <legend>Contact Information</legend>
+                <div>
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                    <label for="email">Phone Number:</label><br>
+                    <input type="email" name="phone" id="phone">
+                </div>
+                                           
+        </fieldset>
+        <fieldset>
+            <legend>Account settings</legend>
+            <div>
+                <label for="">Account Type</label><br><br>
+                <select name="accountType" id="accountType">
+                    <option value="" disabled selected>Select An Account</option>
+                    <option value="1">User</option>
+                    <option value="2">Admin</option>
+                    <option value="3">Guest</option>
+                </select>
+            </div>
+        </fieldset>
     </form>
     <p></p>
 </body>

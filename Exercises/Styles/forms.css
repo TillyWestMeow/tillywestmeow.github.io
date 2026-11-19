@@ -1,0 +1,22 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+fieldset{
+    background-color: #dfc973;
+    border: 3px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+legend{
+    background-color: #908f8f;
+    border: 2px solid #000000;
+    color:#000000;
+    padding: 5px;
+    border-radius: 10px;
+}
+form fieldset div{
+    margin-top: 5px;
+    padding: 5px;
+}
